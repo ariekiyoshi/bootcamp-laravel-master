@@ -15,9 +15,9 @@ class InitUser extends Migration
     public function up()
     {
         $user = new User();
-        $user->name = "Agung";
-        $user->email = "agung@gmail.com";
-        $user->password = bcrypt("123456");
+        $user->name = "Aries";
+        $user->email = "aries@gmail.com";
+        $user->password = bcrypt("P@ssw0rd");
         $user->save();
     }
 
